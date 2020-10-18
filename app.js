@@ -27,6 +27,10 @@ app.get('/pro', (req, res) => {
   res.sendFile('project.html', { root: app.get('views') })
 })
 
+app.get('/AI', (req, res) => {
+  res.sendFile('AI.html', { root: app.get('views') })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
