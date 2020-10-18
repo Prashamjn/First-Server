@@ -1,0 +1,17 @@
+p{
+    margin: 0;
+}
+.mage{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+    top: 112px;
+}
+.sk{
+    position: absolute;
+    left: 40px;
+}
+nav{
+    max-width: 800px;
+}
