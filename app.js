@@ -27,8 +27,16 @@ app.get('/pro', (req, res) => {
   res.sendFile('project.html', { root: app.get('views') })
 })
 
+app.get('/bulb', (req, res) => {
+  res.sendFile('bulb.html', { root: app.get('views') })
+})
+
 app.get('/AI', (req, res) => {
   res.sendFile('AI.html', { root: app.get('views') })
+})
+
+app.get('/audioplayer', (req, res) => {
+  res.sendFile('audioplayer.html', { root: app.get('views') })
 })
 
 app.listen(port, () => {
